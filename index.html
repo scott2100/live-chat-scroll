@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Chat Scroll Demo</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <script src="./index.js"></script>
+    <div id="chat-container">
+      <div id="chat-transcript">
+      </div>
+      <div id="scroll-button"></div>
+    </div>
+    <div id="chat-inputs">
+      <input type="text" placeholder="Enter message" id="chat-message-input"/>
+      <button type="button" onclick="addMessage()">Send</button>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
